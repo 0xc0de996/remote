@@ -6,9 +6,11 @@ client可在server端无感知的情况远程观看server的电脑桌面
 
 1. server和client处于同一局域网且能够ping通，若处于同一局域网但ping不同则需要关闭防火墙
  
-2. server和client安装好python（www.python.org)，并将python目录添加到环境变量中
+2. server和client安装好python（www.python.org) 
 
-3. server端和client执行`pip install -r requirements.txt`
+3. 将python目录添加到环境变量中
+
+4. server端和client执行`pip install -r requirements.txt`
 
 ## server使用步骤
 
