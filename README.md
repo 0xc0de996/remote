@@ -14,11 +14,12 @@ client可在server端无感知的情况远程观看server的电脑桌面
 
 **启动：** server端执行`pythonw server.py {ip}
 {port}`，其中ip为client能ping通的地址，port为开放的端口号，端口号不能被其他进程占用
+
 **退出：** 在任务管理器里杀死python进程
 
 ## client使用步骤
 
-**启动：** client端执行`python client.py {ip}
-{port}`，其中ip为server的地址，port为开放的端口号
+**启动：** client端执行`python client.py {ip} {port}`，其中ip为server的地址，port为开放的端口号
+
 **退出：** 按q退出
 
